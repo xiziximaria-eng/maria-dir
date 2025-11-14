@@ -1,0 +1,62 @@
+//ISIDORO, MA. CHRISTINA DHINE P. DIT 1-2
+
+#include <stdio.h>
+
+int main() {
+
+    printf("Using Operators\n \n");
+    printf(" Arithmetic Operators:\n \n");
+   
+    int a = 25 , b = 45;
+
+    //Addition
+    printf(" Addition:\n");
+    int sum = a + b;
+    printf(" %d + %d = %d\n \n", a, b, sum);
+
+    //Subtraction
+    printf(" Subtraction:\n");
+    int difference = a - b;
+    printf(" %d - %d = %d\n \n", a, b, difference);
+
+    //Multiplication
+    printf(" Multiplication:\n");
+    int product = a * b;
+    printf(" %d * %d = %d\n \n", a, b, product);
+    
+    //Division
+    printf(" Division:\n");
+    int quotient = a / b;   
+    printf(" %d / %d = %d \n \n", a, b, quotient);
+
+    // Logical Operators
+    printf("Logical Operators:\n\n");
+    if (a > b && b > 9) {
+        printf("Both conditions are true: a is greater than b AND b is positive.\n");
+    } else if (a < b || b > 9) {
+        printf("At least one condition is true: a < b OR b > 9.\n");
+    }
+
+    if (!(a == b)) {
+        printf("NOT operator: a is not equal to b.\n\n");
+    }
+
+    // Assignment Operators
+    printf("Assignment Operators:\n\n");
+    int x = 25;
+    printf("Initial value of x = %d\n", x);
+
+    x += 5;  // x = x + 5
+    printf("After x += 5, x = %d\n", x);
+
+    x -= 3;  // x = x - 3
+    printf("After x -= 3, x = %d\n", x);
+
+    x *= 2;  // x = x * 2
+    printf("After x *= 2, x = %d\n", x);
+
+    x /= 4;  // x = x / 4
+    printf("After x /= 4, x = %d\n\n", x);
+  
+    return 0;
+}
