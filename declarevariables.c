@@ -14,6 +14,8 @@ int main() {
     char d = '!';
     printf("Integer: %d,\n Float: %f,\n Character: %c\n", a, b, c);
     printf("nababaliw na ako %c%c%c\n", d, d, d);
-    
+
+    printf("sample for dev branch\n");
+
     return 0;
 }
