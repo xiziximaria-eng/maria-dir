@@ -11,6 +11,9 @@ int main() {
     float b = 16.7;
     // Declare variable character
     char c = 'b';
+    char d = '!';
     printf("Integer: %d,\n Float: %f,\n Character: %c\n", a, b, c);
+    printf("nababaliw na ako %c%c%c\n", d, d, d);
+    
     return 0;
 }
