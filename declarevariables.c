@@ -17,5 +17,8 @@ int main() {
 
     printf("sample for dev branch\n");
 
+    printf("another sample for dev2 branch\n");
+    printf("ganto pala maging programmer:o\n");
+
     return 0;
 }
